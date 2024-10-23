@@ -44,8 +44,49 @@ class TravelOffer
                 <td>$this->categorie</td>
         </table>";
     }
-}
 
+    public function getId()
+    {
+        return $this->id;
+    }
+
+    public function getTitre()
+    {
+        return $this->titre;
+    }
+
+    public function getDestination()
+    {
+        return $this->destination;
+    }
+
+    public function getDateDepart()
+    {
+        return $this->date_depart;
+    }
+
+    public function getDateRetour()
+    {
+        return $this->date_retour;
+    }
+
+    public function getPrix()
+    {
+        return $this->prix;
+    }
+
+    public function getDisponible()
+    {
+        return $this->disponible;
+    }
+
+    public function getCategorie()
+    {
+        return $this->categorie;
+    }
+
+
+}
 
 
 ?>

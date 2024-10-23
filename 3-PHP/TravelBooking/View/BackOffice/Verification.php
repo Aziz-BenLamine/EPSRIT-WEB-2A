@@ -11,7 +11,9 @@ $offer = new TravelOffer(
     $disponible,
     $_POST["Category"]
 );
-var_dump($offer);
 $travelController = new TravelOfferController();
-$travelController->showTravelOffer($offer);
+/*var_dump($offer);
+$travelController->showTravelOffer($offer);*/
+$travelController->addOffer($offer);
+header("Location: offerList.php");
 ?>
